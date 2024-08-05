@@ -7,3 +7,9 @@ html, body{
     width: 100%;
     height: 100%;
 }
+.swiper {
+    width: 1000px;
+    height: 600px;
+    background-color: crimson;
+    text-align: center;
+  }
