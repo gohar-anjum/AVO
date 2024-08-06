@@ -48,10 +48,9 @@ html, body{
 }
 #HS{
     width: 100%;
-    height: 115%;
+    height: 100%;
     clip-path: polygon(100% 0, 100% 89%, 64% 99%, 0 89%, 0 0);
     z-index: 5;
-    
 }
 .swiper {
     width: 100%;
@@ -190,6 +189,12 @@ html, body{
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #ffffff75;
+    }
+    #HS{
+        width: 100%;
+        height: 115%;
+        clip-path: polygon(100% 0, 100% 89%, 64% 99%, 0 89%, 0 0);
+        z-index: 5;
     }
     .ssl {
         width: 90%;
