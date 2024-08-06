@@ -32,11 +32,17 @@ html, body{
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-    font-size: .8rem;
+    font-size: .84rem;
+    font-weight: 600;
     margin-left: 3.5vw;
     letter-spacing: px;
 }
-
+.pages a:active{
+    color: #D1002C;
+}
+#active{
+    color: #D1002C;
+}
 #HS{
     width: 100%;
     height: 100%;
@@ -108,6 +114,15 @@ html, body{
     color: #fff;
     text-align: right;
 }
+.ssr2{
+    width: 10%;
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    padding-left: .8vw;
+    color: #fff;
+    text-align: right;
+}
 .ssr h1{
     font-size: 40px;
     font-weight: 800;
@@ -125,7 +140,21 @@ html, body{
     content: '';
     background: #d1002c;
 }
-/* .ssr .countup{
-    padding-right: 8px;
-    border-right: 5px solid #D1002C;
-} */
+.ssr2 h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-right: 15px;
+}
+.ssr2 h1::after{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 5px;
+    height: 30px;
+    content: '';
+    background: #d1002c;
+}
+

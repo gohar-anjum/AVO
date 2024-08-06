@@ -15,11 +15,9 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-  let time = 0; // Initialize the time variable
-  let cue = document.querySelector(".ssr h1"); // Select the element
-  
-  // Create an interval to update the counter
-const interval = setInterval(() => {
+let time = 0;
+let cue = document.querySelector(".ssr h1");
+const interval = setInterval(()=> {
     if (time <= 400) { 
       cue.innerHTML = `${time}`;
       time++;
@@ -27,3 +25,15 @@ const interval = setInterval(() => {
       clearInterval(interval);
     }
 }, 6);
+let start = 0;
+let cue2 = document.querySelector(".ssr2 h1")
+const timeinterval = setInterval(()=> {
+    if(start<=21){
+        cue2.innerHTML=`${start}`;
+        start++;
+    }
+    else{
+        clearInterval(timeinterval);
+    }
+
+}, 6)
