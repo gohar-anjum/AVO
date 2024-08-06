@@ -43,9 +43,12 @@ html, body{
 #active{
     color: #D1002C;
 }
+.menu #mm{
+    display: none;
+}
 #HS{
     width: 100%;
-    height: 100%;
+    height: 115%;
     clip-path: polygon(100% 0, 100% 89%, 64% 99%, 0 89%, 0 0);
     z-index: 5;
     
@@ -158,3 +161,129 @@ html, body{
     background: #d1002c;
 }
 
+/* Responisve Menu and Hero Section*/
+@media(max-width: 575px){
+    #mainmenu{
+        background-color: #000;
+    }
+    .pages a{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        color: #fff;
+        margin: 0;
+        padding: 3vh 5vw;
+    }
+    .menu h3{
+        color: #fff;
+        font-size: 3.5vmax;
+    }
+    .menu h3 span{
+        color: #D1002C;
+        font-size: 3.5vmax;
+    }
+    .pages span{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #ffffff75;
+    }
+    .ssl {
+        width: 90%;
+        position: absolute;
+        top: 36%;
+        left: 3%;
+        padding-left: .8vw;
+    }
+    .ssl h1 {
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    .ssl button{
+        padding: 8px;
+        color: #fff;
+        background-color: #D1002C;
+        border-radius: 5px;
+        border: 5px solid #D1002C;
+        cursor: pointer;
+    }
+    .ssr{
+        width: 45%;
+        position: absolute;
+        top: 25%;
+        left: 3%;
+        padding-left: .8vw;
+        color: #fff;
+        text-align: left;
+    }
+    .ssr h1{
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .ssr h1::before{
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 5px;
+        height: 30px;
+        content: '';
+        background: #d1002c;
+    }
+    .ssr h1::after{
+        display: none;
+    }
+    .ssr p{
+        font-size: 16px;
+        color: #ffffff7e;
+    }
+    .ssr2{
+        width: 45%;
+        position: absolute;
+        top: 25%;
+        left: 3%;
+        padding-left: .8vw;
+        color: #fff;
+        text-align: left;
+    }
+    .ssr2 h1{
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .ssr2 h1::before{
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 5px;
+        height: 30px;
+        content: '';
+        background: #d1002c;
+    }
+    .ssr2 h1::after{
+        display: none;
+    }
+    .ssr2 p{
+        font-size: 16px;
+        color: #ffffff7e;
+    }
+    .swiper-pagination{
+        margin-bottom: 110px;
+        left: 0;
+        scale: 1.5;
+        width: 20%;
+        width: 20% !important;
+    }
+    
+}
