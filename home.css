@@ -283,7 +283,7 @@ body {
     width: 100%;
     padding: 200px 0px;
     background-color: #F3F3F3;
-    clip-path: polygon(29% 0, 100% 4%, 100% 97%, 73% 100%, 0 96%, 0 4%);
+    clip-path: polygon(29% 0, 100% 2%, 100% 98%, 73% 100%, 0 98%, 0 2%);
 
 }
 .pb-3{
@@ -383,6 +383,71 @@ body {
 }
 .Row2 .imgdiv img{
     width: 100%;
+}
+.section4{
+    width: 100%;
+    padding: 200px 0px;
+}
+.section4inner{
+    margin: 0vw 13%;
+}
+
+
+/* Review*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+  }
+  .swiper-slide p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #a0a0b4;
+  }
+
+  .swiper-slide .profile{
+    margin-top: 20px;
+  }
+  .swiper-slide .profile .imgdiv{
+    overflow: hidden;
+    width: 30%; 
+  }
+  .swiper-slide .profile .imgdiv img{
+    width:100%;
+    border-radius: 50%;
+    }
+    .swiper-slide .profile .profiletxt p:nth-child(1){
+        color: #000;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .swiper-slide .profile .profiletxt p:nth-child(2){
+        margin-top: 0px;
+        font-size: 15px;
+    }
+  .swiper-pagination2{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+  }
+  .swiper-pagination-bullet{
+    scale: 2;
+    border: 1px solid #d1002c ;
+  }
+  .swiper-pagination-bullet-active{
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    color: #d1002c;
 }
 /* Responisve*/
 @media (max-width: 575px) {
