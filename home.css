@@ -491,6 +491,12 @@ body {
   border: 5px solid #d1002c;
   cursor: pointer;
 }
+.section5{
+  width: 100%;
+    padding: 200px 0px;
+    background-color: #F3F3F3;
+    clip-path: polygon(29% 0, 100% 2%, 100% 98%, 73% 100%, 0 98%, 0 2%);
+}
 /* Responisve*/
 @media (max-width: 575px) {
   #mainmenu {
