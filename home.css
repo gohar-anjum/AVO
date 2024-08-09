@@ -495,24 +495,53 @@ body {
   width: 100%;
     padding: 200px 0px;
     background-color: #F3F3F3;
-    clip-path: polygon(29% 0, 100% 2%, 100% 98%, 73% 100%, 0 98%, 0 2%);
+    clip-path: polygon(29% 0, 100% 2%, 100% 98%, 73% 100%, 0 98%, 0 2%); 
+}
+.section5inner{
+  margin: 0 13%;
 }
 .blogrow{
   width: 100%;
-  margin: 0vw 13%;
+  display: flex;
+  position: relative;
 }
 .blogrow .blog1{
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
 }
 .blogrow .blog1 img{
-  width: 100%;
+  max-width: 90%;
+  margin-bottom: 15px;
+  max-height:300px;
+  object-fit: cover;
+  object-position: center;
 }
 .bdetail{
   display: flex;
+  margin-bottom: 15px;
+}
+.bdetail a{
+  margin-right: 10px;
+}
+.blog1 p{
+  color: #a0a0b4;
+  line-height: 1.7;
 }
 .cmnts{display: flex;}
+.cmnts i{
+  margin-right: 6px;
+}
+.blog1 a{
+  text-decoration: none;
+  color: #333333;
+}
+.blog1>a{
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+
 /* Responisve*/
 @media (max-width: 575px) {
   #mainmenu {
