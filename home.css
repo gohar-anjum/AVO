@@ -451,6 +451,16 @@ body {
     opacity: var(--swiper-pagination-bullet-opacity, 1);
     color: #d1002c;
 }
+
+.section4inner .getstarted{
+  margin-top: 30px;
+  background-image: url(bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 970px;
+  min-height: 360px;
+}
+
 /* Responisve*/
 @media (max-width: 575px) {
   #mainmenu {
