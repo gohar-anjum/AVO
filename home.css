@@ -74,10 +74,10 @@ body {
 
 .swiper-pagination {
   margin-bottom: 30px;
-  scale: 1.5;
+  scale: 1;
 }
 :root {
-  --swiper-pagination-color: #ffffff;
+  --swiper-pagination-color: transparent;
 }
 .swiper-pagination-bullet {
   border: 2px solid rgb(255, 255, 255);
@@ -399,42 +399,43 @@ body {
     height: 100%;
   }
 
-  .swiper-slide {
+  .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide {
     font-size: 18px;
     background-color: #F3F3F3;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     padding: 40px 20px;
   }
-  .swiper-slide p{
+  .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide p{
     font-size: 16px;
     line-height: 1.7;
     color: #a0a0b4;
   }
 
-  .swiper-slide .profile{
+  .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide .profile{
     margin-top: 20px;
   }
-  .swiper-slide .profile .imgdiv{
+  .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide .profile .imgdiv{
     overflow: hidden;
     width: 30%; 
   }
-  .swiper-slide .profile .imgdiv img{
+  .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide .profile .imgdiv img{
     width:100%;
     border-radius: 50%;
     }
-    .swiper-slide .profile .profiletxt p:nth-child(1){
+    .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide .profile .profiletxt p:nth-child(1){
         color: #000;
         font-weight: 600;
         font-size: 20px;
     }
-    .swiper-slide .profile .profiletxt p:nth-child(2){
+    .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide .profile .profiletxt p:nth-child(2){
         margin-top: 0px;
         font-size: 15px;
     }
-  .swiper-pagination2{
+    .swiper-pagination2{
     margin-top: 50px;
     display: flex;
     gap: 10px;
@@ -442,7 +443,8 @@ body {
     justify-content: center;
   }
   .swiper-pagination-bullet{
-    scale: 2;
+    scale: 1.5;
+    background-color: transparent;
     border: 1px solid #d1002c ;
   }
   .swiper-pagination-bullet-active{
