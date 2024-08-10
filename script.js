@@ -48,13 +48,15 @@ var swiper = new Swiper(".mySwiper2", {
   },
 });
 
-let playvideo = document.querySelector(".playvideo")
-playvideo.addEventListener("click", () => {
-  let videosection = document.querySelector(".videosection")
-  videosection.style.display = "block";
-  let crossvideo = document.querySelector(".videosection i")
-  crossvideo.addEventListener("click", () => {
+let playvideo = document.querySelectorAll(".playvideo")
+for (let i = 0; i < playvideo.length; i++) {
+  playvideo[i].addEventListener("click", () => {
     let videosection = document.querySelector(".videosection")
-    videosection.style.display = "none";
+    videosection.style.display = "block";
+    let crossvideo = document.querySelector(".videosection i")
+    crossvideo.addEventListener("click", () => {
+      let videosection = document.querySelector(".videosection")
+      videosection.style.display = "none";
+    })
   })
-})
+}
