@@ -549,10 +549,15 @@ body {
 .footerinner{
   color: #fff;
   margin: 0 13%;
-  display: flex
+  display: flex;
+  justify-content: space-between;
+}
+.footerele{
+  width: 18%;
 }
 .footerele h4{
   margin-bottom: 40px;
+  font-size: 20px;
 }
 .footerele p{
  color: #a0a0b4;
@@ -570,7 +575,25 @@ body {
   background-color: #a0a0b423;
   border-radius: 50%;
 }
-
+.list i{
+  font-weight: 800;
+  font-size: 20px;
+  color: #a0a0b4;
+}
+.list a{
+  text-decoration: none;
+  margin-left: 5px;
+  color: #a0a0b4;
+}
+.footerele1{
+  display: flex;
+  gap: 10px;
+  margin-bottom: -15px;
+}
+.footerele1 i{
+  color: #a0a0b4;
+  font-size: 20px;
+}
 /* Responisve*/
 @media (max-width: 575px) {
   #mainmenu {
