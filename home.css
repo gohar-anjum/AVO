@@ -549,9 +549,7 @@ body {
 .footerinner{
   color: #fff;
   margin: 0 13%;
-}
-.footerele{
-  width: 20%;
+  display: flex
 }
 .footerele h4{
   margin-bottom: 40px;
@@ -559,6 +557,7 @@ body {
 .footerele p{
  color: #a0a0b4;
  margin-bottom: 40px;
+ line-height: 1.7;
 }
 .footerele .icons{
   margin: 0;
@@ -566,9 +565,12 @@ body {
   display: flex;
   text-align: left;
 }
-.footerele .icons .iconsdiv{
-  border: 1px solid #a0a0b4;
+.footerele .icons .iconic{
+  padding: 10px 12px;
+  background-color: #a0a0b423;
+  border-radius: 50%;
 }
+
 /* Responisve*/
 @media (max-width: 575px) {
   #mainmenu {
