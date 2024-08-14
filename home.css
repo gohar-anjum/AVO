@@ -904,18 +904,12 @@ body {
 }
 .section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide {
   font-size: 18px;
-  width: 100% !important;
   background-color: #F3F3F3;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   padding: 40px 20px;
 }
-.swiper-wrapper{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 }

@@ -39,13 +39,18 @@ const timeinterval = setInterval(() => {
 }, 6)
 
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   freeMode: true,
   pagination: {
     el: ".swiper-pagination2",
     clickable: true,
   },
+  breakpoints: {
+    767:{
+      slidesPerView: 3,
+    }
+  }
 });
 
 let playvideo = document.querySelectorAll(".playvideo")
