@@ -108,8 +108,158 @@ html, body{
     font-size: 40px;
     font-weight: 900;
 }
-.div2{
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
+.section2{
+    padding: 200px 0;
 }
+.pb-2 {
+  font-size: 2.5vw;
+  margin-bottom: 10vh;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333333;
+}
+.icons {
+  margin: 10vh 13%;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+.icon {
+  width: 20%;
+}
+.icon i {
+  font-size: 5vw;
+  font-weight: 400;
+  color: #333333;
+}
+.icon p {
+  margin-top: 10px;
+  color: #333333;
+}
+.wtavo {
+  display: flex;
+  margin: 13vh 13%;
+  gap: 3%;
+  position: relative;
+}
+#item3 button {
+  padding: 5px 8px;
+  color: #fff;
+  background-color: #d1002c;
+  border-radius: 5px;
+  border: 5px solid #d1002c;
+  cursor: pointer;
+}
+#item1,
+#item2,
+#item3 {
+  width: 30%;
+}
+#item1 p {
+  font-weight: 600;
+  color: #a0a0b4;
+  line-height: 1.7;
+}
+#item1 h1 {
+  color: #000000cc;
+  margin-bottom: 10px;
+}
+#item1 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#item2 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#item2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#item3 p {
+  font-weight: 600;
+  color: #a0a0b4;
+  line-height: 1.7;
+}
+.seo {
+  display: flex;
+  margin: 13vh 13%;
+  gap: 3%;
+}
+.seotxt{
+    padding-top: 7px;
+}
+.seodiv {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.seodiv h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+.seodiv h1::before {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    content: '';
+    width: 20%;
+    background: #d9d9e1;
+}
+.seodiv p:nth-child(1) {
+  font-size: 20px;
+  width: 70%;
+  font-weight: 00;
+  margin-bottom: 8px;
+}
+.seodiv p:nth-child(2) {
+    color: #a0a0b4;
+}
+.getstarted{
+    margin: 30px 13%;
+    background-image: url(bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 970px;
+    min-height: 360px;
+    color: #fff;
+    padding: 48px 30px;
+  }
+  .getstarted span{
+    color: #d1002c;
+    font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+  }
+  .getstarted h2{
+    font-size: 30px;
+      color: #fff;
+      line-height: 1.2;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      width: 45%;
+  }
+  .getstarted p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 45%;
+    line-height: 1.7;
+    color: #a0a0b4;
+  }
+  .getstarted button{
+    padding: 5px 8px;
+    color: #fff;
+    background-color: #d1002c;
+    border-radius: 5px;
+    border: 5px solid #d1002c;
+    cursor: pointer;
+  }
