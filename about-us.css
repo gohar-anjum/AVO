@@ -77,6 +77,37 @@ html, body{
     background-size: cover;
     clip-path: polygon(100% 0, 100% 90%, 65% 100%, 0 90%, 0 0);
 }
+.d1inner{
+    margin: 0 14%;
+}
+.div1mtxt{
+    bottom: 30%;
+    position: absolute;
+}
+.breadcrums{
+    display: flex;
+}
+.bc a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.637);
+}
+.bc i{
+    color:#d1002c;
+    font-size: 20px;
+}
+.div1mtxt{
+    color: #fff;
+}
+.div1mtxt h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
 .div2{
     width: 100%;
     height: 100%;
