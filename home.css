@@ -13,13 +13,32 @@ body {
   z-index: 10;
   position: absolute;
   width: 100%;
+  position: fixed;
+}
+#mainmenu.scrolled{
+  background-color: #fff;
+  box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+-webkit-box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+-moz-box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+}
+#mainmenu.scrolled .pages a{
+  color: #000;
+}
+#mainmenu.scrolled .menu h3{
+  color: #000;
+}
+#mainmenu.scrolled .pages a:active {
+  color: #d1002c;
+}
+#mainmenu.scrolled .pages #active {
+  color: #d1002c;
 }
 .menu {
   display: flex;
   justify-content: space-between;
   color: #fff;
   margin: 0vw 13%;
-  padding: 5.5vh 1.2vw 5.5vh 0.8vw;
+  padding: 3.5vh 1.2vw 3.5vh 0.8vw;
 }
 .menu h3 {
   color: #fff;
@@ -666,6 +685,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff75;
+    display: block;
   }
   #HS {
     width: 100%;
@@ -911,5 +931,50 @@ body {
   border-radius: 10px;
   padding: 40px 20px;
 }
-
+.getstarted h2 {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.getstarted p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  line-height: 1.7;
+  color: #a0a0b4;
+}
+.section5inner {
+  margin: 0 4%;
+}
+.blogrow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.blogrow .blog1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}.footerinner {
+  color: #fff;
+  margin: 0 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footerele {
+  width: 100%;
+}
+.footerele .icons {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
 }
