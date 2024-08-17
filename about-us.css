@@ -263,3 +263,51 @@ html, body{
     border: 5px solid #d1002c;
     cursor: pointer;
   }
+  .section3{
+    width: 100%;
+    padding: 200px 0px;
+    background-color: #F3F3F3;
+    clip-path: polygon(29% 0, 100% 2%, 100% 98%, 73% 100%, 0 98%, 0 2%);
+
+}
+.pb-3{
+    font-size: 2.5vw;
+  margin-bottom: 10vh;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333333;
+}
+.section3inner{
+    margin: 0vw 13%;
+}
+.staffimgs{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.staffmember{
+  width: 20%;
+  height: 50%;
+}
+.mimg{
+  width: 100%;
+  height: 80%;
+  background-image: url(person_1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.staffmember p, span{
+  margin-left: 10px; 
+}
+.staffmember p{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+.staffmember span{
+  margin-top: 10px;
+  color: #d1002c;
+}
