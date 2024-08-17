@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#mainmenu {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  #mainmenu.scrolled{
+    background-color: #fff;
+    box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(92,84,84,0.75);
+  }
+  #mainmenu.scrolled .pages a{
+    color: #000;
+  }
+  #mainmenu.scrolled .menu h3{
+    color: #000;
+  }
+  #mainmenu.scrolled .pages a:active {
+    color: #d1002c;
+  }
+  #mainmenu.scrolled .pages #active {
+    color: #d1002c;
+  }
+  #mainmenu.scrolled .pages span{
+    color: #000;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0vw 13%;
+    padding: 3.5vh 1.2vw 3.5vh 0.8vw;
+  }
+  .menu h3 {
+    color: #fff;
+    font-size: 1.8vmax;
+  }
+  .menu h3 span {
+    color: #d1002c;
+    font-size: 1.8vmax;
+  }
+  .pages a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.84rem;
+    font-weight: 600;
+    margin-left: 3.5vw;
+    letter-spacing: px;
+  }
+  .pages span{
+      display: none;
+  }
+  .pages a:active {
+    color: #d1002c;
+  }
+  #active {
+    color: #d1002c;
+  }
+  .menu #mm {
+    display: none;
+  }
+.div1{
+    width: 100%;
+    height: 90%;
+    background-image: url(bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 90%, 65% 100%, 0 90%, 0 0);
+}
+.d1inner{
+    margin: 0 14%;
+}
+.div1mtxt{
+    bottom: 30%;
+    position: absolute;
+}
+.breadcrums{
+    display: flex;
+}
+.bc a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.637);
+}
+.bc i{
+    color:#d1002c;
+    font-size: 20px;
+}
+.div1mtxt{
+    color: #fff;
+}
+.div1mtxt h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
