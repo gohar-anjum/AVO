@@ -292,10 +292,59 @@ html, body{
   width: 20%;
   height: 50%;
 }
-.mimg{
+.mimg1{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://images.unsplash.com/photo-1541577141970-eebc83ebe30e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3NtYW4lMjBwb3J0cmFpdHN8ZW58MHx8MHx8fDA%3D);
+  background-position: center;
+  background-size: cover;
+}
+.mimg2{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1661515449711-ace459054f78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+}
+.mimg3{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://images.unsplash.com/photo-1555069519-127aadedf1ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+}
+.mimg4{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+}
+.mimg5{
   width: 100%;
   height: 80%;
   background-image: url(person_1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mimg6{
+  width: 100%;
+  height: 80%;
+  background-image: url(person_2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mimg7{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://images.unsplash.com/photo-1555069519-127aadedf1ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
+  background-position: center;
+  background-size: cover;
+}
+.mimg8{
+  width: 100%;
+  height: 80%;
+  background-image: url(https://images.unsplash.com/photo-1508835277982-1c1b0e205603?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
   background-position: center;
   background-size: cover;
 }
