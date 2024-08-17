@@ -393,7 +393,6 @@ html, body{
 }
 .icon{
   cursor: pointer;
-  display: none;
   margin-left: 30px;
   padding: 5px;
   text-align: center;
@@ -401,6 +400,18 @@ html, body{
   height: 30px;
   background-color: #fff;
   border-radius: 50%;
+}
+.icon:hover{
+  background-color: #d1002c;
+}
+.icon:hover i{
+  color: #fff;
+}
+.iconsdiv{
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .icon i{
   color: #d1002c;
