@@ -33,6 +33,9 @@ html, body{
   #mainmenu.scrolled .pages #active {
     color: #d1002c;
   }
+  #mainmenu.scrolled .pages span{
+    color: #000;
+  }
   .menu {
     display: flex;
     justify-content: space-between;
@@ -283,7 +286,6 @@ html, body{
 }
 .staffimgs{
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 5%;
@@ -407,12 +409,13 @@ html, body{
 .icon:hover i{
   color: #fff;
 }
-.iconsdiv{
+.iconsdiv {
   margin-top: 10px;
   visibility: hidden;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: 222px;
 }
 .icon i{
   color: #d1002c;
@@ -547,4 +550,240 @@ html, body{
 .footerele1 i{
   color: #a0a0b4;
   font-size: 20px;
+}
+@media (max-width: 575px) {
+  #mainmenu {
+    background-color: #000;
+  }
+  .pages a {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0;
+    padding: 3vh 5vw;
+  }
+  .menu h3 {
+    color: #fff;
+    font-size: 3.5vmax;
+  }
+  .menu h3 span {
+    color: #d1002c;
+    font-size: 3.5vmax;
+  }
+  .pages span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff75;
+    display: block;
+  }
+  .section2 {
+    padding: 100px 0;
+}
+  .pb-2 {
+    font-size: 6.5vw;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #333333;
+}
+.icons {
+  margin: 8vh 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  /* justify-content: end; */
+  /* text-align: center; */
+  align-items: center;
+}
+.iconsdiv {
+  margin-top: 0px;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 55vh;
+}
+.iconi {
+  width: 100%;
+}
+.iconi i {
+  font-size: 15vw;
+  font-weight: 400;
+  color: #333333;
+}
+.iconi p {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700;
+}
+.wtavo {
+  display: flex;
+  flex-direction: column;
+  margin: 14vh 4%;
+  gap: 3%;
+  position: relative;
+}
+#item1, #item2, #item3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+#item3{
+  align-items: center;
+}
+#item1 h1 {
+  color: #000000cc;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+#item3 button {
+  padding: 5px 8px;
+  color: #fff;
+  background-color: #d1002c;
+  border-radius: 5px;
+  border: 5px solid #d1002c;
+  cursor: pointer;
+  width: 40%;
+  /* text-align: center; */
+}
+.section3inner {
+  margin: 0vw 4%;
+}
+.seo {
+  display: flex;
+  flex-direction: column;
+  margin: 14vh 4%;
+  gap: 40px;
+}
+.seodiv {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+.pb-3 {
+  font-size: 6.5vw;
+  margin-bottom: 10vh;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333333;
+}
+.Row1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+.Row2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+.Row1 img {
+  width: 100%;
+  /* height: 38%; */
+}
+.Row2 img {
+  width: 100%;
+  /* height: 38%; */
+}
+.Row2 .row1txt {
+  text-align: left;
+}
+.Row2 .profile {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.row1txt h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.staffmember {
+  width: 100%;
+}
+.section4inner {
+  margin: 0vw 4%;
+}
+.section4 .section4inner .mySwiper2 .swiper-wrapper .swiper-slide {
+  font-size: 18px;
+  background-color: #F3F3F3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+.getstarted {
+  margin: 30px 4%;
+  background-image: url(bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 970px;
+  min-height: 360px;
+  color: #fff;
+  padding: 48px 30px;
+}
+.getstarted h2 {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.getstarted p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  line-height: 1.7;
+  color: #a0a0b4;
+}
+.section5inner {
+  margin: 0 4%;
+}
+.staffimgs {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.footerinner {
+  color: #fff;
+  margin: 0 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footerele {
+  width: 100%;
+}
+.footerele .icons {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
 }

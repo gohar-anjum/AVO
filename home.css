@@ -33,6 +33,9 @@ body {
 #mainmenu.scrolled .pages #active {
   color: #d1002c;
 }
+#mainmenu.scrolled .pages span{
+  color: #000;
+}
 .menu {
   display: flex;
   justify-content: space-between;
