@@ -299,3 +299,117 @@ html, body{
     color: #a0a0b4;
     font-size: 20px;
   }
+  @media (max-width: 575px){
+    #mainmenu {
+        background-color: #000;
+      }
+      .pages a {
+        display: none;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        color: #fff;
+        margin: 0;
+        padding: 3vh 5vw;
+      }
+      .menu h3 {
+        color: #fff;
+        font-size: 3.5vmax;
+      }
+      .menu h3 span {
+        color: #d1002c;
+        font-size: 3.5vmax;
+      }
+      .pages span {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #ffffff75;
+        display: block;
+      }
+
+      .section3inner {
+        margin: 0vw 4%;
+      }
+      .seo {
+        display: flex;
+        flex-direction: column;
+        margin: 14vh 4%;
+        gap: 40px;
+      }
+      .seodiv {
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        position: relative;
+      }
+      .pb-3 {
+        font-size: 6.5vw;
+        margin-bottom: 10vh;
+        text-align: center;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #333333;
+      }
+      .Row1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 35px;
+      }
+      .Row2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 35px;
+      }
+      .Row1 img {
+        width: 100%;
+        /* height: 38%; */
+      }
+      .Row2 img {
+        width: 100%;
+        /* height: 38%; */
+      }
+      .Row2 .row1txt {
+        text-align: left;
+      }
+      .Row2 .profile {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .row1txt h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+
+      .footerinner {
+        color: #fff;
+        margin: 0 4%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .footerele {
+        width: 100%;
+      }
+      .footerele .icons {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .section3inner {
+        margin: 0vw 4%;
+    }
+  }

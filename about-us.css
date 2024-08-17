@@ -787,3 +787,38 @@ html, body{
   text-align: left;
 }
 }
+@media (min-width: 768px) and (max-width: 991px){
+  .icons {
+    margin: 10vh 4%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.wtavo {
+  display: flex;
+  margin: 13vh 4%;
+  gap: 3%;
+  position: relative;
+}
+.seo {
+  display: flex;
+  margin: 13vh 4%;
+  gap: 3%;
+}
+.getstarted {
+  margin: 30px 4%;
+  background-image: url(bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 970px;
+  min-height: 360px;
+  color: #fff;
+  padding: 48px 30px;
+}
+.section3inner {
+  margin: 0vw 4%;
+}
+.section4inner {
+  margin: 0vw 4%;
+}
+}
