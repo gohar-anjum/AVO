@@ -407,6 +407,9 @@ html, body{
         flex-direction: row;
         text-align: left;
       }
+      .footer{
+        clip-path: polygon(30% 0, 100% 4%, 100% 100%, 0 100%, 0 4%);
+      }
   }
   @media (min-width: 768px) and (max-width: 991px){
     .section3inner {
