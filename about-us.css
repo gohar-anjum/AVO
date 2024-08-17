@@ -304,6 +304,10 @@ html, body{
   background-size: cover;
 }
 .mimg2{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(https://plus.unsplash.com/premium_photo-1661515449711-ace459054f78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
@@ -311,6 +315,10 @@ html, body{
   background-size: cover;
 }
 .mimg3{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(https://images.unsplash.com/photo-1555069519-127aadedf1ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
@@ -318,6 +326,10 @@ html, body{
   background-size: cover;
 }
 .mimg4{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
@@ -325,6 +337,10 @@ html, body{
   background-size: cover;
 }
 .mimg5{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(person_1.jpg);
@@ -332,6 +348,10 @@ html, body{
   background-size: cover;
 }
 .mimg6{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(person_2.jpg);
@@ -339,6 +359,10 @@ html, body{
   background-size: cover;
 }
 .mimg7{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(https://images.unsplash.com/photo-1555069519-127aadedf1ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
@@ -346,6 +370,10 @@ html, body{
   background-size: cover;
 }
 .mimg8{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   width: 100%;
   height: 80%;
   background-image: url(https://images.unsplash.com/photo-1508835277982-1c1b0e205603?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJ1c2luZXNzbWFuJTIwcG9ydHJhaXRzfGVufDB8fDB8fHww);
@@ -365,15 +393,15 @@ html, body{
   color: #d1002c;
 }
 .icon{
+  cursor: pointer;
+  display: none;
   margin-left: 30px;
-  padding: 7px;
+  padding: 5px;
+  text-align: center;
   width: 30px;
   height: 30px;
   background-color: #fff;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .icon i{
   color: #d1002c;
