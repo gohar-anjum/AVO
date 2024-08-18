@@ -310,3 +310,99 @@ html, body{
     color: #a0a0b4;
     font-size: 20px;
   }
+  @media (max-width: 575px){
+    #mainmenu {
+        background-color: #000;
+      }
+      .pages a {
+        display: none;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        color: #fff;
+        margin: 0;
+        padding: 3vh 5vw;
+      }
+      .menu h3 {
+        color: #fff;
+        font-size: 3.5vmax;
+      }
+      .menu h3 span {
+        color: #d1002c;
+        font-size: 3.5vmax;
+      }
+      .pages span {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color:  #ffffff75;
+        display: block;
+      }
+      .contactmain {
+        width: 100%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactmain #cleft {
+        width: 100%;
+        height: 100%;
+        background-color: #F3F3F3;
+        padding: 40px 35px;
+    }
+    .maintxt h1 {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .maintxt p {
+        font-weight: 600;
+        color: #00000053;
+        width: 80%;
+    }
+    .contactmain #cright {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .crele {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+      .footer{
+        clip-path: polygon(30% 0, 100% 4%, 100% 100%, 0 100%, 0 4%);
+      }
+      .footerinner {
+        color: #fff;
+        margin: 0 4%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .footerele {
+        width: 100%;
+      }
+      .footerele .icons {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .contactmain {
+        width: 100%;
+        padding: 10% 4%;
+        display: flex;
+        gap: 20px;
+    }
+  }
